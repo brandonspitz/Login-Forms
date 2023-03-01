@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900'); /*import google font*/
 
-*{
+*{ /*style for entire form*/
     margin: 0;
     padding: 0;
     font-family: 'poppins', sans-serif;
 }
 
-section{
+section{ /*centering all content and format background*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ section{
     background-size: cover;
 }
 
-.form-box{
+.form-box{ /*style for box containing content*/
     position: relative;
     width: 400px;
     height: 450px;
@@ -30,20 +30,20 @@ section{
     align-items: center;
 }
 
-h2{
+h2{ /*header style*/
     font-size: 2em;
     color: #fff;
     text-align: center;
 }
 
-.inputbox{
+.inputbox{ /*input box positioning*/
     position: relative;
     margin: 30px 0;
     width: 310px;
     border-bottom: 2px solid #fff;
 }
 
-.inputbox label{
+.inputbox label{ /*label animation and style*/
     position: absolute;
     top: 50%;
     left: 5px;
@@ -54,12 +54,12 @@ h2{
     transition: .5s;
 }
 
-input:focus ~ label,
+input:focus ~ label, /*input validation*/
 input:valid ~ label{
     top: -5px;
 }
 
-.inputbox input {
+.inputbox input { /*input box style*/
     width: 100%;
     height: 50px;
     background: transparent;
@@ -70,7 +70,7 @@ input:valid ~ label{
     color: #fff;
 }
 
-.inputbox ion-icon{
+.inputbox ion-icon{ /*icon style and position*/
     position: absolute;
     right: 8px;
     color: #fff;
@@ -78,7 +78,7 @@ input:valid ~ label{
     top: 20px;
 }
 
-.forget{
+.forget{ /*forgot password positioning*/
     margin: -15px 0 15px;
     font-size: .9em;
     color: #fff;
@@ -86,20 +86,20 @@ input:valid ~ label{
     justify-content: center;
 }
 
-.forget label input{
+.forget label input{ /*forgot positioning*/
     margin-right: 3px;
 }
 
-.forget label a{
+.forget label a{ /*forgot style*/
     color: #fff;
     text-decoration: none;
 }
 
-.forget label a:hover{
+.forget label a:hover{ /*style when hover*/
     text-decoration: underline;
 }
 
-button{
+button{ /*button style and positioning*/
     width: 100%;
     height: 40px;
     border-radius: 40px;
@@ -111,24 +111,24 @@ button{
     font-weight: 600;
 }
 
-.register{
+.register{ /*register positioning*/
     font-size: .9em;
     color: #fff;
     text-align: center;
     margin: 25px 0 10px;
 }
 
-.register p a{
+.register p a{ /*register style*/
     text-decoration: none;
     color: #fff;
     font-weight: 600;
 }
 
-.register p a:hover{
+.register p a:hover{ /*style when hover*/
     text-decoration: underline;
 }
 
-.copyright {
+.copyright { /*copyright syle and positioning at bottom of form*/
     position: fixed;
 	padding-bottom: 5px;
 	padding-top: 5px;
