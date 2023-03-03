@@ -130,8 +130,8 @@ button{ /*button style and positioning*/
 
 .copyright { /*copyright syle and positioning at bottom of form*/
     position: fixed;
-	padding-bottom: 5px;
-	padding-top: 5px;
+	padding-bottom: 2px;
+	padding-top: 2px;
 	text-align: center;
 	bottom: 0px;
 	width: 100%;
